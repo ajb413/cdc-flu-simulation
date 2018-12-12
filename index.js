@@ -1,7 +1,7 @@
 const PubNub = require('pubnub');
 const cities = require('./usCities.json').cities;
-const maxTimeout = 10000;
-const minTimeout = 4000;
+const maxTimeout = 12000;
+const minTimeout = 6000;
 let randomMillisecondInterval = 0;
 
 const pubnub = new PubNub({
