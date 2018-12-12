@@ -28,7 +28,6 @@ function main() {
     });
 
     randomMillisecondInterval = randomNumber(maxTimeout, minTimeout);
-    console.log(randomMillisecondInterval);
     setTimeout(main, randomMillisecondInterval);
 }
 
